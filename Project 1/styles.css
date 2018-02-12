@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow');
 body {
   background-color: #feff4b;
-  text-align: center;
+  text-align: center;   
 }
 h1, h2, h3, h4, h5, h6{
   color: #ee54c2;
@@ -21,4 +21,13 @@ h1, h2, h3, h4, h5, h6{
 .main{
     font-size: 32px;
     padding: 15px;
+}
+.website{
+    max-width:600px;
+}
+img.rr{
+    align-content: right;
+}
+img.ll{
+    align-content: left;
 }
