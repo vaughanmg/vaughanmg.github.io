@@ -1,33 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Roboto');
 @import url('https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow');
+
 body {
   background-color: #feff4b;
-  text-align: center;   
 }
+header{
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-size: 82px;
+    padding: 50px;
+    text-align: center;
+    color: #ee54c2;
+}
+
 h1, h2, h3, h4, h5, h6{
-  color: #ee54c2;
+    color: #ee54c2;
+    text-align: center;   
+    margin-bottom: 10px;
 }
-.header{
-  font-family: 'Jacques Francois Shadow', cursive;
-  font-size: 72px;
-  padding: 50px;
-  text-align: center;
+
+h2{
+    font-size: 36px;
 }
-.body{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  letter-spacing: 5px;
+
+h3{
+    font-size: 28px;
+}
+
+h4{
+    font-size:20px;
+}
+
+h5{
+    font-size: 12px;
+}
+
+h6{
+    font-size: 8px;
 }
 .main{
-    font-size: 32px;
     padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: 5px; 
 }
-.website{
-    max-width:600px;
-}
+
 img.rr{
-    align-content: right;
+    float:right;
 }
+
 img.ll{
-    align-content: left;
+    float:left;
+}
+img.lilpump{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
