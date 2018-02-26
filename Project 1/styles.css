@@ -5,7 +5,7 @@ body {
     background-color: #feff4b;
 }
 
-header{
+header {
     font-family: 'Cooper Black';
     font-size: 82px;
     padding: 50px;
@@ -13,34 +13,37 @@ header{
     color: #ee54c2;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     color: #ee54c2;
     text-align: center;   
     margin-bottom: 10px;
 }
-h1{
+
+h1 {
     font-size: 42px;
 }
-h2{
+
+h2 {
     font-size: 36px;
 }
 
-h3{
+h3 {
     font-size: 28px;
 }
 
-h4{
+h4 {
     font-size:20px;
 }
 
-h5{
+h5 {
     font-size: 12px;
 }
 
-h6{
+h6 {
     font-size: 8px;
 }
-.main{
+
+.main {
     padding: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -49,15 +52,16 @@ h6{
     margin: 0 auto;
 }
 
-img.rr{
+img.rr {
     display: inline-block;
     float: right;
 }
 
-img.ll{
-     position: absolute;
+img.ll {
+    position: absolute;
 }
-img.lilpump{
+
+img.lilpump {
     display: block;
     margin-left: auto;
     margin-right: auto;
