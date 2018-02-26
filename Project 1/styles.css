@@ -45,18 +45,17 @@ h6{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     letter-spacing: 5px; 
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
 }
 
 img.rr{
-    display:inline;
-    float:right;
+    display: inline-block;
+    float: right;
 }
 
 img.ll{
-    display:inline;
-    float:left;
+     position: absolute;
 }
 img.lilpump{
     display: block;
