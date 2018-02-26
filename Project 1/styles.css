@@ -52,6 +52,12 @@ h6 {
     margin: 0 auto;
 }
 
+@media (max-width: 600px){
+    .main{
+        width: auto;
+    }
+}
+
 img.rr {
     display: inline-block;
     float: right;
