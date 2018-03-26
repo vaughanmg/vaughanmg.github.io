@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Quando');
+
+/* Global Styles */
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Abel', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #563E2F;
+}
+
+/* Typography and Links */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Quando', Georgia, serif;
+}
+
+h1{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+a{
+    color: #3C9991;
+    transition: all .3s ease;
+}
+
+a:hover{
+    color: #185861;
+}
+
+/* Layout and Header */
+
+img{
+    float:left;
+    padding: 20px;
+}
+
+header{
+    display: inline-block;
+    margin: 200px 50px;
+    max-width: 650px;
+    overflow: hidden;
+    float:left;
+}
+
+.highlight{
+    display: inline-block;
+}
+
+.About{
+    max-width:350px;
+}
+
+.main{
+    display: inline-block;
+    margin: 20px;
+    float: left;
+}
+
+.Artworks{
+    background-color: aquamarine;
+    padding: 40px;
+    display: inline-block;
+    float: left;
+}
+
+.WebDesign{
+    padding: 40px;
+    float: left;
+    display: inline-block;
+}
+
+.Resume{
+    padding: 40px;
+    float: left;
+    display: inline-block;
+}
