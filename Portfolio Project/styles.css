@@ -47,7 +47,7 @@ img{
 
 header{
     display: inline-block;
-    margin: 200px 50px;
+    margin: 200px 100px;
     max-width: 650px;
     overflow: hidden;
     float:left;
@@ -63,25 +63,39 @@ header{
 
 .main{
     display: inline-block;
-    margin: 20px;
+    margin: 150px 20px 200px 100px;
     float: left;
 }
 
 .Artworks{
+    width: 300px;
+    height: 500px;
     background-color: aquamarine;
-    padding: 40px;
+    padding: 250px 10px;
     display: inline-block;
     float: left;
+    text-align:center;
+    margin-right: 40px;
 }
 
 .WebDesign{
-    padding: 40px;
-    float: left;
+    width: 300px;
+    height: 500px;
+    background-color: aquamarine;
+    padding: 250px 10px;
     display: inline-block;
+    float: left;
+    text-align:center;
+    margin-right: 40px;
 }
 
 .Resume{
-    padding: 40px;
-    float: left;
+    width: 300px;
+    height: 500px;
+    background-color: aquamarine;
+    padding: 250px 10px;
     display: inline-block;
+    margin-right: 40px;
+    float: left;
+    text-align:center;
 }
