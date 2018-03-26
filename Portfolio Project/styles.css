@@ -13,7 +13,7 @@ body{
     font-family: 'Abel', Arial, sans-serif;
     font-size: 18px;
     line-height: 28px;
-    color: #563E2F;
+    color: #4c4c4c;
 }
 
 /* Typography and Links */
@@ -22,16 +22,17 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 a{
     color: #3C9991;
     transition: all .3s ease;
+    text-decoration: none;
 }
 
 a:hover{
@@ -40,6 +41,13 @@ a:hover{
 
 /* Layout and Header */
 
+/* 50px = 2.5%
+100 px = 5%*/
+body{
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
 img{
     float:left;
     padding: 20px;
@@ -47,7 +55,7 @@ img{
 
 header{
     display: inline-block;
-    margin: 200px 100px;
+    margin: 11% 5% 11% 5%;
     max-width: 650px;
     overflow: hidden;
     float:left;
@@ -55,6 +63,7 @@ header{
 
 .highlight{
     display: inline-block;
+    width: 350px;
 }
 
 .About{
@@ -63,14 +72,14 @@ header{
 
 .main{
     display: inline-block;
-    margin: 150px 20px 200px 100px;
+    margin: 7.5% 1.25% 8% 5%;
     float: left;
 }
 
 .Artworks{
     width: 300px;
     height: 500px;
-    background-color: aquamarine;
+    background-color: #e5e5e5;
     padding: 250px 10px;
     display: inline-block;
     float: left;
@@ -81,7 +90,7 @@ header{
 .WebDesign{
     width: 300px;
     height: 500px;
-    background-color: aquamarine;
+    background-color: #e5e5e5;
     padding: 250px 10px;
     display: inline-block;
     float: left;
@@ -92,10 +101,21 @@ header{
 .Resume{
     width: 300px;
     height: 500px;
-    background-color: aquamarine;
+    background-color: #e5e5e5;
     padding: 250px 10px;
     display: inline-block;
     margin-right: 40px;
     float: left;
     text-align:center;
+}
+
+/* Responsive */
+@media screen and (max-width:599px){
+    body{
+        margin: 20px;
+    }
+    .main{
+        float: none;
+        margin: 10px;
+    }
 }
