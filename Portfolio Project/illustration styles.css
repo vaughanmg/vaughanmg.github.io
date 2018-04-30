@@ -82,6 +82,15 @@ header{
     max-width: 350px;
 }
 
+.main a{
+    color: #000;
+    transition: all 0.15s ease;
+}
+
+.main a:hover{
+    color: cadetblue;
+}
+
 .Home{
     margin: 0px 0px 10px 0px;
     width: 300px;
@@ -107,6 +116,18 @@ header{
 }
 
 .Resume{
+    margin: 0px 0px 10px 0px;
+    width: 300px;
+    height: 30px;
+    background-color: #e5e5e5;
+    padding: 2px;
+    display: inline-block;
+    float: left;
+    text-align:center;
+    margin-right: 40px;
+}
+
+.contact{
     margin: 0px 0px 10px 0px;
     width: 300px;
     height: 30px;
