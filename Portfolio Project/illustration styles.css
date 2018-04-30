@@ -139,6 +139,10 @@ header{
     margin-right: 40px;
 }
 
+.main > div:hover{
+    background-color: #99f4ff;
+}
+
 .imagedisplay{
     float: left;
     width: 700px;
