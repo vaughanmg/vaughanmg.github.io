@@ -29,6 +29,10 @@ h2{
     font-size: 16px;
 }
 
+h5{
+    font-size: 10px;
+}
+
 a{
     color: #c2c2c2;
     transition: all .3s ease;
@@ -72,15 +76,16 @@ header{
 
 .main{
     display: inline-block;
-    margin: 7.5% 1.25% 8% 5%;
+    margin: .5% 1.25% .5% 5%;
     float: left;
 }
 
 .Artworks{
+    margin: 0px 0px 10px 0px;
     width: 300px;
-    height: 500px;
+    height: 30px;
     background-color: #e5e5e5;
-    padding: 250px 10px;
+    padding: 2px;
     display: inline-block;
     float: left;
     text-align:center;
@@ -88,10 +93,11 @@ header{
 }
 
 .WebDesign{
+    margin: 0px 0px 10px 0px;
     width: 300px;
-    height: 500px;
+    height: 30px;
     background-color: #e5e5e5;
-    padding: 250px 10px;
+    padding: 2px;
     display: inline-block;
     float: left;
     text-align:center;
@@ -99,57 +105,13 @@ header{
 }
 
 .Resume{
+    margin: 0px 0px 10px 0px;
     width: 300px;
-    height: 500px;
+    height: 30px;
     background-color: #e5e5e5;
-    padding: 250px 10px;
+    padding: 2px;
     display: inline-block;
-    margin-right: 40px;
     float: left;
     text-align:center;
-}
-
-/* Responsive */
-@media screen and (max-width: 1600px){
-    body{
-        margin: 20px 20px 20px 20%;
-    }
-    header{
-        padding: 20px 20px 20px 20px;
-        margin: 0px 0px 0px 20%;
-        max-width: none;
-    }
-    .main{
-        float: none;
-        margin: 10px;
-        width: 85%;
-    }
-    .Artworks{
-        width: 100%;
-        height: 180px;
-        padding: 100px 10px;
-        margin: 15px 0px;
-    }
-    
-    .WebDesign{
-        width: 100%;
-        height: 180px;
-        padding: 100px 10px;
-        margin: 15px 0px;
-    }
-    .Resume{
-        width: 100%;
-        height: 180px;
-        padding: 100px 10px;
-        margin: 15px 0px;
-    }
-}
-@media screen and (max-width: 500px){
-    body{
-        margin: 20px 0px 0px 10%;
-    }
-    header{
-        padding: 0px;
-        margin: 0px 0px 0px 10%;
-        max-width: none;
+    margin-right: 40px;
 }
