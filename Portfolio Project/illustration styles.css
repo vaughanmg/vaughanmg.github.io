@@ -60,7 +60,7 @@ img{
 header{
     display: inline-block;
     margin: 11% 5% 11% 5%;
-    max-width: 650px;
+    max-width: 350px;
     overflow: hidden;
     float:left;
 }
@@ -78,9 +78,11 @@ header{
     display: inline-block;
     margin: .5% 1.25% .5% 5%;
     float: left;
+    overflow: hidden;
+    max-width: 350px;
 }
 
-.Artworks{
+.Home{
     margin: 0px 0px 10px 0px;
     width: 300px;
     height: 30px;
@@ -114,4 +116,20 @@ header{
     float: left;
     text-align:center;
     margin-right: 40px;
+}
+
+.imagedisplay{
+    float: left;
+    width: 700px;
+    height: 800px;
+    background-color: #e5e5e5;
+    margin: 20px 20px 20px 12%;
+}
+
+.imagedisplay2{
+    float:left;
+    width: 700px;
+    height: 800px;
+    background-color: #e5e5e5;
+    margin: 20px 20px 20px 40.95%;
 }
