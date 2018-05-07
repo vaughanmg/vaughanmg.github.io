@@ -98,38 +98,72 @@ header{
 .Artworks{
     width: 300px;
     height: 500px;
-    background-color: #e5e5e5;
-    padding: 250px 10px;
     display: inline-block;
     float: left;
-    text-align:center;
     margin-right: 40px;
+}
+.Artworks img:last-child{
+    display:none;
+}
+
+.Artworks:hover img:first-child{
+    display:none;
+}
+
+.Artworks:hover img:last-child{
+    display:inline-block;
+}
+
+.SArtworks{
+    display:none;
 }
 
 .WebDesign{
     width: 300px;
     height: 500px;
-    background-color: #e5e5e5;
-    padding: 250px 10px;
     display: inline-block;
     float: left;
-    text-align:center;
     margin-right: 40px;
+}
+.WebDesign img:last-child{
+    display:none;
+}
+
+.WebDesign:hover img:first-child{
+    display:none;
+}
+
+.WebDesign:hover img:last-child{
+    display:inline-block;
+}
+.SWebDesign{
+    display:none;
 }
 
 .Resume{
     width: 300px;
     height: 500px;
-    background-color: #e5e5e5;
-    padding: 250px 10px;
     display: inline-block;
     margin-right: 40px;
     float: left;
-    text-align:center;
+}
+.Resume img:last-child{
+    display:none;
+}
+
+.Resume:hover img:first-child{
+    display:none;
+}
+
+.Resume:hover img:last-child{
+    display:inline-block;
+}
+.SResume{
+    display: none;
 }
 
 /* Responsive */
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1700px){
     body{
         margin: 20px 20px 20px 20%;
     }
@@ -144,31 +178,89 @@ header{
         width: 85%;
     }
     .Artworks{
-        width: 100%;
-        height: 180px;
-        padding: 100px 10px;
-        margin: 15px 0px;
+        display:none;
     }
-    
     .WebDesign{
-        width: 100%;
-        height: 180px;
-        padding: 100px 10px;
-        margin: 15px 0px;
+        display:none;
     }
     .Resume{
+        display:none;
+    }
+    .SArtworks{
         width: 100%;
         height: 180px;
-        padding: 100px 10px;
         margin: 15px 0px;
+        display:inline-block;
+        background-color: #e2e2e2;
+        text-align: center;
+        padding-top: 80px;
+    }
+    
+    .SWebDesign{
+        width: 100%;
+        height: 180px;
+        margin: 15px 0px;
+        display:inline-block;
+        background-color: #e2e2e2;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .SResume{
+        width: 100%;
+        height: 180px;
+        margin: 15px 0px;
+        display:inline-block;
+        background-color: #e2e2e2;
+        text-align: center;
+        padding-top: 80px;
     }
 }
 @media screen and (max-width: 500px){
     body{
-        margin: 20px 0px 0px 10%;
+        margin: 20px 0px 0px 5%;
     }
     header{
         padding: 0px;
         margin: 0px 0px 0px 10%;
         max-width: none;
-}
+    }
+    .Artworks{
+        display:none;
+    }
+    .WebDesign{
+        display:none;
+    }
+    .Resume{
+        display:none;
+    }
+    .SArtworks{
+        display:inline-block;
+        background-color: #e2e2e2;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        padding-top: 35px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .SWebDesign{
+        display:inline-block;
+        background-color: #e2e2e2;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        padding-top: 35px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .SResume{
+        display:inline-block;
+        background-color: #e2e2e2;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        padding-top: 35px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    
