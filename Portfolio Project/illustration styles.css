@@ -145,16 +145,10 @@ header{
 
 .imagedisplay{
     float: left;
-    width: 700px;
-    height: 800px;
-    background-color: #e5e5e5;
     margin: 20px 20px 20px 12%;
 }
 
 .imagedisplay2{
     float:left;
-    width: 700px;
-    height: 800px;
-    background-color: #e5e5e5;
-    margin: 20px 20px 20px 40.95%;
+    margin: 20px 20px 20px 12%;
 }
