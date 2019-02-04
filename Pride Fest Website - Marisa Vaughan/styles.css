@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Merriweather');
+
+/* Global Styles */
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: "Merriweather", Georgia, times, serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #870850;
+}
+
+/* Typography and Links */
+h1, h2, h3, h4, h5, h6{
+    font-family: "Archivo Black", Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 26px;
+    margin-bottom: 1em;
+}
+
+a{
+    color: #d61181;
+    transition: all .3s ease;
+}
+
+a:hover{
+    color: #632548;
+}
+
+.default-btn{
+    border: 2px solid white;
+    padding: 12px 24px;
+    height: auto;
+    text-decoration: none;
+    color: white;
+    font-family: "Archivo Black", Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 20px;
+        -webkit-border-radius: 24px;
+        -moz-border-radius: 24px;
+    transition: all .3s ease;
+}
+
+.default-btn:hover{
+    border-color: #d61181;
+    color: #ff008f;
+}
+
+
+/* Layout and Header */
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    padding: 25px;
+}
+
+header h1{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin: 30px 0px;
+}
+
+header nav a{
+    margin: 0 0 0 10px;
+    font-family: "Archivo Black", Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav a:hover{
+    color: #d61181
+}
+
+section.hero{
+    margin: 0;
+    padding: 0;
+    min-height: 400px;
+    background: url('images/prideheader.jpg') no-repeat top center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section.hero h1{
+    color: white;
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Main Seciton */
+
+section.main{
+    text-align: center;
+    padding: 50px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+section.main .inner{
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Features */
+
+section.feature{
+    padding: 40px;
+    overflow: hidden;
+}
+section.features .feature{
+    width: 25%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.feature h3{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #b20869;
+}
+
+.feature p{
+    margin-bottom: 1em;
+    font-size: 14px;
+}
+
+section.features .feature img{
+    width: 100%;
+}
+
+section.prefooter{
+    clear: both;
+    min-height: 400px;
+    background: url('images/pridefooter.jpg') no-repeat center;
+    background-attachment: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.prefooter .inner{
+    text-align:center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* Footer */
+footer{
+    min-height: 300px;
+    background-color:black;
+    font-family: "Archivo Black" Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Pages */
+
+/* Responsive */
+@media screen and (max-width:599px){
+    header{
+        padding: 20px 0px;
+        background-color: black;
+        position: relative;
+        text-align: center;
+    }
+    
+    header h1, header nav{
+        float: none;
+    }
+    
+    section.hero h1{
+        font-size: 26px;
+        line-height: 1.2;
+    }
+    
+    section.features{
+        margin: 0;
+        padding: 0;
+    }
+    
+    section.features .feature{
+        margin: 0 0 20px;
+        width: 100%;
+        padding: 0;
+    }
+    
+    section.features .feature p{
+        padding: 0px 30px;
+    }
+    
+    footer .inner{
+        max-width: 300px;
+    }
+}
